@@ -1,17 +1,17 @@
 proxies:
-- name: danuWs11-SNIa
+- name: danuWs11-226
   type: trojan
-  server: sg-ctn.sshpremium.my.id
+  server: 104.18.20.226
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
-  sni: gomarketplacecontent-cf.zoom.us
+  sni: sg-ctn.sshpremium.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: "/trojanws"
     headers:
-      Host: gomarketplacecontent-cf.zoom.us
+      Host: sg-ctn.sshpremium.my.id
 - name: danuWs11-SNIb
   type: trojan
   server: sg-ctn.sshpremium.my.id
