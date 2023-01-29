@@ -27,7 +27,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: danuWs11-Akrab_TES_B
   type: trojan
-  server: 104.21.21.147
+  server: 104.18.20.94
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
@@ -66,7 +66,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: danuWs11-Akrab_TES_E
   type: trojan
-  server: 104.18.20.226
+  server: 104.16.108.96
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
@@ -79,7 +79,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: danuWs11-Akrab_TES_F
   type: trojan
-  server: 104.64.149.82
+  server: 104.19.186.16
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
@@ -92,7 +92,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: danuWs11-Akrab_G
   type: trojan
-  server: udemy.com
+  server: 104.18.29.70
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
@@ -105,7 +105,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: danuWs11-Akrab_H
   type: trojan
-  server: blogs.microsoft.com
+  server: 104.18.3.179
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
@@ -118,7 +118,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: danuWs11-Akrab_I
   type: trojan
-  server: 172.67.182.69
+  server: 104.18.12.120
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
@@ -131,7 +131,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: danuWs11-Akrab_J
   type: trojan
-  server: en-in-f100.1e100.net
+  server: 104.18.13.120
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
@@ -144,7 +144,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: danuWs11-Akrab_K
   type: trojan
-  server: janda-bohai.xv-dns.com
+  server: 104.18.21.219
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
@@ -157,7 +157,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: danuWs11-Akrab_L
   type: trojan
-  server: qiscus.com
+  server: 104.18.12.120
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
@@ -170,7 +170,7 @@ proxies:
       Host: sg-ctn.sshpremium.my.id
 - name: danuWs11-Akrab_M
   type: trojan
-  server: 104.18.25.243
+  server: 104.18.30.102
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
