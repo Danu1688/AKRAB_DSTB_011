@@ -1,7 +1,59 @@
 proxies:
-- name: danuWs11-Vision+
+- name: danuWs11-Vision+A
   type: trojan
   server: 104.21.235.171
+  port: 443
+  password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danuWs11-Vision+B
+  type: trojan
+  server: visionplus.id
+  port: 443
+  password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danuWs11-Vision+C
+  type: trojan
+  server: api.visionplus.id
+  port: 443
+  password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danuWs11-Vision+D
+  type: trojan
+  server: cdnodeb.visionplus.id
+  port: 443
+  password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
+  udp: true
+  sni: sg-ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg-ctn.sshpremium.my.id
+- name: danuWs11-Vision+E
+  type: trojan
+  server: stream.visionplus.id
   port: 443
   password: d0e27aeb-ae7f-4412-9a21-19cf08c55fb4
   udp: true
@@ -25,7 +77,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuWs11-Akrab_TES_C
+- name: danuWs11-Akrab_TES_B
   type: trojan
   server: 104.16.51.111
   port: 443
@@ -38,7 +90,7 @@ proxies:
     path: "/trojanws"
     headers:
       Host: sg-ctn.sshpremium.my.id
-- name: danuWs11-Akrab_TES_D
+- name: danuWs11-Akrab_TES_C
   type: trojan
   server: 104.16.53.111
   port: 443
